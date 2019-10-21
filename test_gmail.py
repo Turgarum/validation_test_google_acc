@@ -9,7 +9,7 @@ user_dictionary = { 'fn':'Sergey', 'ln':'Cheshkov', 'password':'Abc123456!' }
 
 driver = webdriver.Chrome('D:\QAA\chromedriver.exe')
 driver.get('https://accounts.google.com')
-driver.implicitly_wait(1)
+driver.implicitly_wait(5)
 
 sign_in_page = SignInPage(driver)
 sign_in_page.create_account_action()
