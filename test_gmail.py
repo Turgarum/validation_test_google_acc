@@ -37,5 +37,4 @@ for email in email_list:
     time.sleep(1)
     assert 'Имя пользователя может включать латинские буквы (a-z), цифры (0-9) и точку (.).' in driver.page_source
 
-time.sleep(3)
 driver.close()
